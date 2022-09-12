@@ -126,3 +126,30 @@ body {
     font-size: 1.2rem;
     font-weight: 500;
 }
+
+.website-logo {
+    position: absolute;
+    top: 1rem;
+    font-size: 4rem;
+    letter-spacing: 3px;
+    vertical-align: middle;
+    /* margin-bottom: 0; */
+    text-align: center;
+    left: 40%;
+}
+
+.nav-container input[type="checked"]:checked ~ .nav-menu {
+    transform: translateX(0);
+
+}
+
+.nav-container input[type="checked"]:checked ~ .hamburger-lines .line1 {
+    transform: rotate(45deg);
+}
+
+.nav-container input[type="checked"]:checked ~ .hamburger-lines .line2 {
+    transform: scaleY(0);
+}
+.nav-container input[type="checked"]:checked ~ .hamburger-lines .line3 {
+    transform: rotate(45deg);
+}
