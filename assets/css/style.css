@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Noto+Sans:wght@300&display=swap');
+
+* {
+    margin: 0
+    padding: 0
+    border: auto;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    background-color: red;
+}
+
+/* full header width */
+.nav-bar {
+    width: 100%;
+}
+
+/* container within full header width */
+.container {
+    width: 90%;
+    margin: auto;
+    max-width: 1050px;
+}
+
+/* container in which to hold hamburger menu list drop-down */
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    position: relative;
+}
+
+.nav-bar .nav-menu {
+    display: flex;
+}
+
+.nav-bar .nav-container li {
+    list-style: none;
+}
+
+
+.nav-bar .nav-container a {
+    text-decoration: none;
+    color: #2a2a2a;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding: 0.7rem;
+}
+
+.nav-bar .nav-container a:hover {
+    border-bottom: 1px solid #3a3a3a;
+    color: #3a3a3a;
+}
+
+.nav-container .checkbox {
+    position: absolute;
+    display: block;
+    height:30px;
+    width:30px;
+    top: 20px;
+    left: 20px;
+    z-index: 5;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+/* hamburger lines */
+.nav-container .hamburger-lines {
+    display: block;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.nav-container .hamburger-lines .line {
+    display: block;
+    height: 4px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #3a3a3a;
+}
+
+.nav-container .hamburger-lines .line1 {
+    transform-origin: 0% 0%;
+    transition: transform .4s ease-in-out;
+}
+.nav-container .hamburger-lines .line2 {
+    transition: transform .2s ease-in-out;
+}
+.nav-container .hamburger-lines .line3 {
+    transform-origin: 0% 0%;
+    transition: transform .4s ease-in-out;
+}
+
+.nav-bar .nav-menu {
+    padding-top: 120px;
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+    height: 100vh;
+    width: 100%;
+    transform: translate(-150%);
+    display: flex;
+    flex-direction: column;
+    margin-left: -40px;
+    padding-left: 50px;
+    transition: transform 0.5s ease-in-out;
+    text-align: center;
+
+}
+
+.nav-bar .nav-menu li {
+    margin-bottom: auto;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
