@@ -12,6 +12,84 @@ body {
     background-color: red;
 }
 
+/* Original Website logo and navigation bar which style will carry through the 3 pages */
+
+/* header {
+    width: 100%;
+    height: 10rem;
+}
+
+h1 {
+    font-family: Nato sans, sans-serif;
+    color: #2a2a2a;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: Nato sans, sans-serif;
+    color: #2a2a2a;
+}
+
+#website-logo {
+    /* float: left; */
+    /* padding-left: 2vw;
+    font-size: 4rem;
+    letter-spacing: 3px;
+    vertical-align: middle;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+#website-logo i {
+    color: #3a3a3a;
+    font-size: 50%;
+    padding: 5px;
+    margin: 1px;
+}
+
+#nav-menu { */
+    /* float: right; */
+    /* display: inline-block;
+    padding-right: 1.6vw;
+}
+
+#nav-menu li {
+    float: left;
+    font-size: 2rem;
+    letter-spacing: 3px;
+    list-style-type: none;
+    padding-right: 1vw;
+}
+
+#nav-menu,
+#website-logo {
+    line-height: 5rem;
+    vertical-align: 50%;
+} */
+
+/* remove navigation underlines */
+
+/* #nav-menu a {
+    text-decoration: none;
+    color: #2a2a2a;
+    text-transform: uppercase;
+} */
+
+/* create hover effect on nav bar */
+
+/* #nav-menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+    color: #3a3a3a;
+} */
+
+/* create underline effect on active page within nav bar */
+
+/* .active {
+    border-bottom: 1px solid #3a3a3a;
+} */ 
+
+/* Hamburger menu Navigation bar */
+
 /* full header width */
 .nav-bar {
     width: 100%;
