@@ -12,7 +12,7 @@ body {
     background-color: red;
 }
 
-/* Original Website logo and navigation bar which style will carry through the 3 pages */
+Original Website logo and navigation bar which style will carry through the 3 pages
 
 /* header {
     width: 100%;
@@ -90,6 +90,7 @@ h2 {
 
 /* Hamburger menu Navigation bar */
 
+@media screen and (max-width: 768px){
 /* full header width */
 .nav-bar {
     width: 100%;
@@ -241,4 +242,4 @@ h2 {
 .nav-container input[type="checkbox"]:checked ~ .website-logo {
     display: none;
 }
-
+}
