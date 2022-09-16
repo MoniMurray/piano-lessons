@@ -19,12 +19,21 @@ Original Website logo and navigation bar which style will carry through the 3 pa
     height: 10rem;
 } */
 
+/* container within full header width */
 .container {
     width: 90%;
     margin: auto;
     max-width: 1050px;
 }
 
+/* container in which to hold hamburger menu list drop-down */
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+    /* position: relative; */
+}
 h1 {
     font-family: Nato sans, sans-serif;
     color: #2a2a2a;
@@ -92,7 +101,7 @@ h2 {
 
 .active {
     border-bottom: 1px solid #3a3a3a;
-} */ 
+} 
 
 /* Hamburger menu Navigation bar */
 
