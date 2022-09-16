@@ -14,9 +14,15 @@ body {
 
 Original Website logo and navigation bar which style will carry through the 3 pages
 
-/* header {
+header {
     width: 100%;
     height: 10rem;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    max-width: 1050px;
 }
 
 h1 {
@@ -32,7 +38,7 @@ h2 {
 
 #website-logo {
     /* float: left; */
-    /* padding-left: 2vw;
+    padding-left: 2vw;
     font-size: 4rem;
     letter-spacing: 3px;
     vertical-align: middle;
@@ -47,9 +53,9 @@ h2 {
     margin: 1px;
 }
 
-#nav-menu { */
-    /* float: right; */
-    /* display: inline-block;
+#nav-menu {
+    /* float: right;*/
+    display: inline-block;
     padding-right: 1.6vw;
 }
 
@@ -65,26 +71,26 @@ h2 {
 #website-logo {
     line-height: 5rem;
     vertical-align: 50%;
-} */
+}
 
 /* remove navigation underlines */
 
-/* #nav-menu a {
+#nav-menu a {
     text-decoration: none;
     color: #2a2a2a;
     text-transform: uppercase;
-} */
+}
 
 /* create hover effect on nav bar */
 
-/* #nav-menu a:hover {
+#nav-menu a:hover {
     border-bottom: 1px solid #3a3a3a;
     color: #3a3a3a;
-} */
+}
 
 /* create underline effect on active page within nav bar */
 
-/* .active {
+.active {
     border-bottom: 1px solid #3a3a3a;
 } */ 
 
@@ -154,9 +160,9 @@ h2 {
     cursor: pointer;
 }
 
-.active {
+/* .active {
     border-bottom: 1px solid #3a3a3a;
-}
+} */
 
 /* hamburger lines */
 .nav-container .hamburger-lines {
@@ -212,7 +218,7 @@ h2 {
     font-weight: 500;
 }
 
-.website-logo {
+/* .website-logo {
     position: absolute;
     top: 5px;
     left: 10rem;
@@ -220,7 +226,7 @@ h2 {
     color: #0e2431;
     
     letter-spacing: 3px;
-}
+} */
 
 
 .nav-container input[type="checkbox"]:checked ~ .nav-menu {
